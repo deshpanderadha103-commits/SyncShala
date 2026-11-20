@@ -1,0 +1,12 @@
+{
+  "name": "offline-learning-monorepo",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Offline Learning Platform - All-in-One Localhost",
+  "scripts": {
+    "start": "powershell -ExecutionPolicy Bypass -File ./start.ps1",
+    "dev": "powershell -ExecutionPolicy Bypass -File ./start.ps1",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build"
+  }
+}
